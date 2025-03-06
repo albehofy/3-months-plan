@@ -1,123 +1,146 @@
-# 3-Month Learning Plan
+**Senior Angular Developer Roadmap (March - May 2025)**
 
-## Month 1: Computer Science Basics + JavaScript & OOP + Data Structures
+## **Month 1: Advanced Angular Foundations + Architecture Basics (March 06 - April 02, 2025)**
 
-### 📌 Computer Science Fundamentals & Algorithms
-- 📖 **Book:** *"Computer Science Distilled" by Wladston Ferreira Filho* → 2 chapters per week.
-- 📖 **Book:** *"Grokking Algorithms" by Aditya Bhargava* → 2-3 chapters per week.
-- 👨‍💻 **Practice:** Solve **easy problems** on [LeetCode](https://leetcode.com/) (arrays, recursion).
+### **Week 1: March 06 - March 12, 2025**
 
-### 📌 Data Structures (Foundations)
-- 🎥 **Udemy Course:** Data Structures in **JavaScript**.
-- 📖 **Topics to cover:**
-  - Arrays & Strings
-  - Linked Lists (Singly & Doubly)
-  - Stacks & Queues
-- 👨‍💻 **Practice:** Solve **basic DS problems** (Stack, Queue, Linked List) on LeetCode.
+#### **Day 1 - Thursday, March 06**  
+**Title:** Angular Change Detection Basics  
+**Description:** Study Angular’s Change Detection (OnPush strategy) and its performance impact.  
+**Duration:** 4 hours  
+**Resources:** 📖 Angular Docs: Change Detection  
+**Tasks:** Read docs, take notes, experiment with OnPush in a small Angular app.  
+**Tags:** Angular, Fundamentals  
 
-### 📌 JavaScript & OOP Basics
-- 📖 **Book:** *"You Don’t Know JS" (first book in the series by Kyle Simpson)*.
-- 🎥 **Udemy Course:** JavaScript + OOP-focused course.
-- 👨‍💻 **Practice:**
-  - Solve **JS coding challenges** on [CodeWars](https://www.codewars.com/).
-  - Implement OOP concepts (Encapsulation, Inheritance, Polymorphism).
+#### **Day 2 - Friday, March 07**  
+**Title:** RxJS Operators Intro  
+**Description:** Learn basic RxJS operators (map, filter, mergeMap).  
+**Duration:** 4 hours  
+**Resources:** 📖 "RxJS in Action" (Chapter 1), 🎥 Udemy: "RxJS Beyond the Basics" (first section)  
+**Tasks:** Solve a small RxJS challenge (e.g., filter an observable stream).  
+**Tags:** RxJS, Coding  
 
-### 📌 Networking
-- 📖 *"Computer Networking: A Top-Down Approach" by Kurose and Ross* → Read the first 3 chapters.
-- 🎥 **Udemy Course:** Beginner-friendly networking course.
-- 👨‍💻 **Practice:** Learn **how the internet works** (DNS, HTTP, TCP/IP).
+#### **Day 3 - Monday, March 10**  
+**Title:** Lazy Loading Setup  
+**Description:** Implement lazy-loaded modules in Angular.  
+**Duration:** 5 hours  
+**Resources:** 🎥 Udemy: "Angular - The Complete Guide" (Lazy Loading section)  
+**Tasks:** Create a multi-module Angular app with lazy loading.  
+**Tags:** Angular, Project  
 
-### 📌 Frontend Development (Angular Focus)
-- 🎥 **Max’s Angular Course:** Continue at least **3–5 hours per week**.
-- 👨‍💻 **Practice:** Build small **Angular projects** using PrimeNG.
+#### **Day 4 - Tuesday, March 11**  
+**Title:** NgRx Basics  
+**Description:** Set up NgRx in an Angular app and understand Actions/Reducers.  
+**Duration:** 4 hours  
+**Resources:** 🎥 "NgRx - The Complete Guide" (first 2 hours)  
+**Tasks:** Add NgRx to a task manager app (CRUD actions).  
+**Tags:** NgRx, State Management  
 
-### 📌 English Improvement
-- 🎧 Watch tech YouTube videos (ex: Fireship, Academind, Web Dev Simplified).
-- 📖 Read **English documentation** aloud.
-- ✍️ Write summaries of what you learned in **English**.
+#### **Day 5 - Wednesday, March 12**  
+**Title:** Unit Testing Intro  
+**Description:** Learn Jasmine/Karma basics for Angular unit testing.  
+**Duration:** 4 hours  
+**Resources:** 🎥 "Angular Testing Masterclass" (intro section)  
+**Tasks:** Write unit tests for a simple component.  
+**Tags:** Testing, Angular  
 
----
+### **Week 2: March 13 - March 19, 2025**
 
-## Month 2: Advanced Algorithms + Data Structures + Design Patterns
+#### **Day 6 - Thursday, March 13**  
+**Title:** Dependency Injection Deep Dive  
+**Description:** Explore Angular’s DI system (hierarchical injectors, providers).  
+**Duration:** 4 hours  
+**Resources:** 📖 Angular Docs: Dependency Injection  
+**Tasks:** Build a custom provider in your app.  
+**Tags:** Angular, Fundamentals  
 
-### 📌 Algorithms & Data Structures (Intermediate Level)
-- 📖 **Book:** *"Introduction to Algorithms" (CLRS)* → Sorting, Searching, Linked Lists.
-- 🎥 **Udemy Course:** Data Structures & Algorithms in JavaScript.
-- 📖 **Topics to cover:**
-  - Hash Tables
-  - Trees (Binary Search Tree, AVL Tree)
-  - Graphs (BFS, DFS)
-- 👨‍💻 **Practice:** Solve **medium-level** problems (Sorting, Trees, Graphs).
+#### **Day 7 - Friday, March 14**  
+**Title:** RxJS Error Handling  
+**Description:** Study RxJS error handling and retry strategies.  
+**Duration:** 4 hours  
+**Resources:** 📖 "RxJS in Action" (Chapter 2)  
+**Tasks:** Add error handling to an RxJS stream.  
+**Tags:** RxJS, Coding  
 
-### 📌 Advanced JavaScript & Design Patterns
-- 📖 **Book:** *"You Don’t Know JS" (Scope & Closures, Async & Performance)*.
-- 🎥 **Udemy Course:** Advanced JavaScript & Design Patterns.
-- 📖 **Topics to cover:**
-  - Design Patterns (Singleton, Factory, Observer).
-  - SOLID principles.
-- 👨‍💻 **Practice:** Implement **real-world use cases** for patterns.
+#### **Day 8 - Monday, March 17**  
+**Title:** Custom Directives  
+**Description:** Create reusable custom directives in Angular.  
+**Duration:** 5 hours  
+**Resources:** 🎥 Udemy: "Angular - The Complete Guide" (Directives section)  
+**Tasks:** Build a directive (e.g., hover effect) for your app.  
+**Tags:** Angular, Project  
 
-### 📌 Networking (Advanced Topics)
-- 📖 Continue *"Computer Networking: A Top-Down Approach"*.
-- 🎥 Learn about **OSI Model, TCP vs. UDP, WebSockets**.
+#### **Day 9 - Tuesday, March 18**  
+**Title:** NgRx Effects  
+**Description:** Learn NgRx Effects for side effects (e.g., API calls).  
+**Duration:** 4 hours  
+**Resources:** 🎥 "NgRx - The Complete Guide" (Effects section)  
+**Tasks:** Add an Effect to your task manager.  
+**Tags:** NgRx, State Management  
 
-### 📌 Frontend Development (Deep Dive into Angular)
-- 🎥 Continue Max’s **Angular Course**.
-- 👨‍💻 **Project:** Build an **e-commerce frontend** with Angular + PrimeNG.
-- 📖 Read about **performance optimization** in Angular.
+#### **Day 10 - Wednesday, March 19**  
+**Title:** English Tech Writing  
+**Description:** Write a short blog post in English about Change Detection.  
+**Duration:** 2 hours  
+**Resources:** 🎧 Watch a Fireship Angular video for inspiration.  
+**Tasks:** Draft and edit a 300-word post.  
+**Tags:** English, Communication  
 
-### 📌 Freelancing Start
-- 🎥 **Udemy Course:** Freelancing strategies (Upwork & Fiverr).
-- 📝 Set up a **portfolio website** showcasing projects.
-- 👨‍💻 Create an **Upwork & Fiverr** profile.
-
-### 📌 English Practice
-- ✍️ Write about your coding projects on **Medium or LinkedIn**.
-- 🗣️ Speak about tech topics with AI tools for practice.
-
----
-
-## Month 3: Mastering Advanced Topics + Freelancing & Real-World Projects
-
-### 📌 Advanced Algorithms & Problem-Solving
-- 📖 Read CLRS chapters on **Graphs, Trees, and Dynamic Programming**.
-- 🎥 Udemy Course: Advanced Data Structures & Algorithms.
-- 📖 **Topics to cover:**
-  - Trie Data Structure
-  - Dynamic Programming
-  - Graph Algorithms (Dijkstra, A*)
-- 👨‍💻 **LeetCode:** Solve **Graph & DP problems** (2-3 per week).
-
-### 📌 Advanced JavaScript & Performance Optimization
-- 📖 **Book:** *"JavaScript: The Good Parts" by Douglas Crockford*.
-- 🎥 Learn about **functional programming** in JavaScript.
-- 👨‍💻 **Practice:** Optimize JS performance using **Debouncing, Throttling, Lazy Loading**.
-
-### 📌 Networking (Cloud & API Focus)
-- 🎥 Learn about **REST APIs, GraphQL, WebSockets**.
-- 👨‍💻 Experiment with **Postman & API testing tools**.
-
-### 📌 Frontend Mastery
-- 📖 Read about **State Management (NgRx) & Angular Performance Best Practices**.
-- 👨‍💻 **Project:** Convert your **e-commerce project into a PWA**.
-- 🎥 Learn about **Next.js for freelancing opportunities**.
-
-### 📌 Freelancing & Career Growth
-- 🎥 Watch videos on **client communication & pricing your services**.
-- 📝 Start applying for **freelance gigs**.
-- 👨‍💻 Join **LinkedIn & Discord developer groups**.
-
-### 📌 English Fluency
-- 🎙️ **Mock Interviews:** Practice answering common frontend interview questions.
-- 📖 Read English **tech blogs & documentation daily**.
+(Continue similarly for Weeks 3-4, focusing on dashboard project kickoff, RxJS multicasting, testing coverage, and data structures like arrays/trees from "Grokking Algorithms".)
 
 ---
 
-## Final Outcome After 3 Months 🚀
-✅ Mastered **Data Structures & Algorithms** (ready for coding interviews).
-✅ Stronger **JavaScript, OOP, and Design Patterns**.
-✅ Deeper **Angular expertise** with **real-world projects**.
-✅ Solid **networking knowledge** (important for frontend & APIs).
-✅ A **freelancing profile & portfolio** ready to attract clients.
-✅ **Improved English** (better communication in job interviews & freelancing).
+## **Month 2: Architecture, Performance, and Scalability (April 03 - April 30, 2025)**
+
+### **Week 5: April 03 - April 09, 2025**
+
+#### **Day 21 - Thursday, April 03**  
+**Title:** Monorepo with Nx  
+**Description:** Set up an Angular monorepo using Nx.  
+**Duration:** 5 hours  
+**Resources:** 🎥 "Enterprise Angular" (Nx section)  
+**Tasks:** Refactor your dashboard into an Nx monorepo.  
+**Tags:** Architecture, Angular  
+
+#### **Day 22 - Friday, April 04**  
+**Title:** Performance: Bundle Optimization  
+**Description:** Analyze and reduce bundle size with Webpack Bundle Analyzer.  
+**Duration:** 4 hours  
+**Resources:** 📖 Angular Docs: Performance  
+**Tasks:** Optimize your dashboard’s initial load.  
+**Tags:** Performance, Angular  
+
+(Continue for Weeks 6-8, focusing on SSR with Angular Universal, micro-frontends, freelancing profile setup, and English documentation.)
+
+---
+
+## **Month 3: Senior-Level Expertise + Real-World Application (May 01 - May 28, 2025)**
+
+### **Week 9: May 01 - May 07, 2025**
+
+#### **Day 41 - Thursday, May 01**  
+**Title:** Custom Angular Library  
+**Description:** Build and publish a reusable Angular library.  
+**Duration:** 5 hours  
+**Resources:** 📖 Angular Docs: Libraries  
+**Tasks:** Create a UI component library and publish to npm.  
+**Tags:** Angular, Advanced  
+
+#### **Day 42 - Friday, May 02**  
+**Title:** CI/CD Setup  
+**Description:** Set up a CI/CD pipeline with GitHub Actions.  
+**Duration:** 4 hours  
+**Resources:** 🎥 Udemy: Deploying Angular Apps  
+**Tasks:** Automate dashboard deployment.  
+**Tags:** DevOps, Project  
+
+#### **Day 43 - Monday, May 05**  
+**Title:** PWA Conversion  
+**Description:** Convert your dashboard into a PWA.  
+**Duration:** 5 hours  
+**Resources:** 🎥 Angular PWA Course  
+**Tasks:** Add offline support to your app.  
+**Tags:** Angular, Project  
+
+(Continue for Weeks 10-12, focusing on real-time collaboration app, leadership tutorials, Next.js basics, and final portfolio polish.)
 
